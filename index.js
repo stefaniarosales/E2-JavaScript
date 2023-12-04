@@ -75,7 +75,7 @@ console.log("-----------------------------------------")
  */
 
 const ingredientesTotales = pizzas.forEach ((pizza) => {
-  console.log(`Cada pizza posee los siguientes ingredientes: ${pizza.ingredientes}`)
+  console.log(`Esta ${pizza.nombre} posee los siguientes ingredientes: ${pizza.ingredientes}`)
 })
 
 
